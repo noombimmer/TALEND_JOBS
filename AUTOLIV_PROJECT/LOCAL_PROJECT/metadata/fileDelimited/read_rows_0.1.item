@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_dllLoI2jEemcE8SIi2QMFw" name="read_rows" dataPackage="_dlpdEI2jEemcE8SIi2QMFw" Server="Localhost 127.0.0.1" FilePath="C:/AutoLiv/temp_20190611121232.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;||&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_dlpdEI2jEemcE8SIi2QMFw" name="default" dataManager="_dllLoI2jEemcE8SIi2QMFw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_dlpdEY2jEemcE8SIi2QMFw" id="_-dzbUI2iEemcE8SIi2QMFw" label="row_read">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dlpdEo2jEemcE8SIi2QMFw" label="Column0" length="400" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

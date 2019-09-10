@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_7qeY8GWeEemvqaTrbfc7Vg" dataPackage="_7qeY8WWeEemvqaTrbfc7Vg"/>
+  <TalendMetadata:GenericPackage xmi:id="_7qeY8WWeEemvqaTrbfc7Vg" dataManager="_7qeY8GWeEemvqaTrbfc7Vg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7qeY8mWeEemvqaTrbfc7Vg" id="_7qaHgGWeEemvqaTrbfc7Vg" label="all_objects">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeY82WeEemvqaTrbfc7Vg" name="name" label="name" length="128" sourceType="SYSNAME" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_7qeY9GWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeY9WWeEemvqaTrbfc7Vg" name="object_id" label="object_id" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_7qeY9mWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeY92WeEemvqaTrbfc7Vg" name="principal_id" label="principal_id" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_7qeY-GWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeY-WWeEemvqaTrbfc7Vg" name="schema_id" label="schema_id" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_7qeY-mWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeY-2WeEemvqaTrbfc7Vg" name="parent_object_id" label="parent_object_id" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_7qeY_GWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeY_WWeEemvqaTrbfc7Vg" name="type" label="type" length="2" sourceType="CHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_7qeY_mWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeY_2WeEemvqaTrbfc7Vg" name="type_desc" label="type_desc" length="60" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_7qeZAGWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeZAWWeEemvqaTrbfc7Vg" name="create_date" label="create_date" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7qeZAmWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeZA2WeEemvqaTrbfc7Vg" name="modify_date" label="modify_date" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7qeZBGWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeZBWWeEemvqaTrbfc7Vg" name="is_ms_shipped" label="is_ms_shipped" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_7qeZBmWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeZB2WeEemvqaTrbfc7Vg" name="is_published" label="is_published" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_7qeZCGWeEemvqaTrbfc7Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7qeZCWWeEemvqaTrbfc7Vg" name="is_schema_published" label="is_schema_published" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_7qeZCmWeEemvqaTrbfc7Vg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

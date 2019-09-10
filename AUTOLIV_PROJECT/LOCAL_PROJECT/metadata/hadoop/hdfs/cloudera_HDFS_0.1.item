@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendHDFS:HDFSConnection xmi:id="_2e_LUHQfEemNw4Vg79VDFA" dataPackage="_KE5lgHQhEemNw4Vg79VDFA" relativeHadoopClusterId="_pL3tQHQQEemNw4Vg79VDFA" userName="cloudera" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;;&quot;"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_KE5lgHQhEemNw4Vg79VDFA" name="HDFS" dataManager="_2e_LUHQfEemNw4Vg79VDFA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_KE5lgXQhEemNw4Vg79VDFA" name="ERROR_IMPORT" id="_IwySQHQhEemNw4Vg79VDFA" label="ERROR_IMPORT">
+      <taggedValue xmi:id="_KE5lgnQhEemNw4Vg79VDFA" tag="Comment" value=""/>
+      <additionalProperties xmi:id="_KE5lg3QhEemNw4Vg79VDFA" key="HDFS_PATH" value="/user/cloudera/ERROR_IMPORT"/>
+      <additionalProperties xmi:id="_KE5lhHQhEemNw4Vg79VDFA" key="HDFS_FILE_TYPE" value="TEXT"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_KE5lhXQhEemNw4Vg79VDFA" name="EXPORT_ERROR_CURRENT" id="_JFhzMHQhEemNw4Vg79VDFA" label="EXPORT_ERROR_CURRENT">
+      <taggedValue xmi:id="_KE5lhnQhEemNw4Vg79VDFA" tag="Comment" value=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KE5lh3QhEemNw4Vg79VDFA" label="Column0" length="637" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KE5liHQhEemNw4Vg79VDFA" label="Column1" length="354" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KE5liXQhEemNw4Vg79VDFA" label="Column2" length="218" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KE5linQhEemNw4Vg79VDFA" label="Column3" length="48" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KE5li3QhEemNw4Vg79VDFA" label="Column4" length="143" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <additionalProperties xmi:id="_KE5ljHQhEemNw4Vg79VDFA" key="HDFS_PATH" value="/user/cloudera/EXPORT_ERROR_CURRENT.xlsx"/>
+      <additionalProperties xmi:id="_KE5ljXQhEemNw4Vg79VDFA" key="HDFS_FILE_TYPE" value="TEXT"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

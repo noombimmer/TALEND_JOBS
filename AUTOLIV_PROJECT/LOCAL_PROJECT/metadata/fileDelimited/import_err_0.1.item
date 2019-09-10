@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_sOMP8RTzEemF4bdpt1ZzQw" name="import_err" dataPackage="_sOMP8hTzEemF4bdpt1ZzQw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Administrator/bimmerso_siop/amd_error_current.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" LimitValue="0" FirstLineCaption="true" RemoveEmptyRow="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;'&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_sOMP8hTzEemF4bdpt1ZzQw" name="default" dataManager="_sOMP8RTzEemF4bdpt1ZzQw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_sOMP8xTzEemF4bdpt1ZzQw" id="_URdxEBTzEemF4bdpt1ZzQw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sOMP9BTzEemF4bdpt1ZzQw" label="_xxamd_domain___xxamd_site___xxamd_amis___xxamd_part___xxamd_cust___xxamd_brand___xxamd_cust_country___xxamd_mol_name___xxamd_err___Key___Error_Reason___Error_Group___Comment_" length="267" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_BsL8MJFvEemWPe2xjL2h4g" name="entity" dataPackage="_BsL8MZFvEemWPe2xjL2h4g" Server="Localhost 127.0.0.1" FilePath="C:/AutoLiv/athreport/fin_entity_pattern.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="ENTITY" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="ENTITY:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_BsL8MZFvEemWPe2xjL2h4g" name="default" dataManager="_BsL8MJFvEemWPe2xjL2h4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_BsL8MpFvEemWPe2xjL2h4g" id="_7cOaAJFuEemWPe2xjL2h4g" label="entity">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BsL8M5FvEemWPe2xjL2h4g" label="entity" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BsL8NJFvEemWPe2xjL2h4g" label="domain" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

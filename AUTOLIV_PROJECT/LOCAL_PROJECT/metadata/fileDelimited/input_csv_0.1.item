@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Bo7SkXSAEemlGJNWLX5A5Q" name="input_csv" dataPackage="_Bo7SknSAEemlGJNWLX5A5Q" Server="Localhost 127.0.0.1" FilePath="D:/SIOP_OUTPUT/SIOP/BIReport/AMIS_ERROR/EXPORT_ERROR_CURRENT.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Bo7SknSAEemlGJNWLX5A5Q" name="default" dataManager="_Bo7SkXSAEemlGJNWLX5A5Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Bo7Sk3SAEemlGJNWLX5A5Q" id="_44szEHR_EemlGJNWLX5A5Q" label="export_error_current">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SlHSAEemlGJNWLX5A5Q" label="Domain" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SlXSAEemlGJNWLX5A5Q" label="Site" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SlnSAEemlGJNWLX5A5Q" label="Error" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7Sl3SAEemlGJNWLX5A5Q" label="Customer" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SmHSAEemlGJNWLX5A5Q" label="Brand" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SmXSAEemlGJNWLX5A5Q" label="CarLine_Code" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SmnSAEemlGJNWLX5A5Q" label="Model_Code" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7Sm3SAEemlGJNWLX5A5Q" label="Cust_Country" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SnHSAEemlGJNWLX5A5Q" label="Prod_SOP_File" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SnXSAEemlGJNWLX5A5Q" label="Prod_EOP_File" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SnnSAEemlGJNWLX5A5Q" label="AMIS_Key" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7Sn3SAEemlGJNWLX5A5Q" label="AMIS_Part_Number" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SoHSAEemlGJNWLX5A5Q" label="Reason" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SoXSAEemlGJNWLX5A5Q" label="Comment" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SonSAEemlGJNWLX5A5Q" label="Error_Group" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7So3SAEemlGJNWLX5A5Q" label="BUSI_DT" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bo7SpHSAEemlGJNWLX5A5Q" label="Column16" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

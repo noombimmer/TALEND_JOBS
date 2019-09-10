@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_kloSwDA0EemhjIIHjCRx4g" name="ABc_CLISSIFIED" dataPackage="_kloSwTA0EemhjIIHjCRx4g" Server="Localhost 127.0.0.1" FilePath="C:/cube_output/ABC_Upload_Example.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" lastColumn="4" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;" generationMode="USER_MODE">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kloSwTA0EemhjIIHjCRx4g" name="default" dataManager="_kloSwDA0EemhjIIHjCRx4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kloSwjA0EemhjIIHjCRx4g" id="_ZD3fwDA0EemhjIIHjCRx4g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kloSwzA0EemhjIIHjCRx4g" label="xxadm_domain" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kloSxDA0EemhjIIHjCRx4g" label="xxadm_site" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kloSxTA0EemhjIIHjCRx4g" label="xxadm_cust_part" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kloSxjA0EemhjIIHjCRx4g" label="cust_part_abc" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

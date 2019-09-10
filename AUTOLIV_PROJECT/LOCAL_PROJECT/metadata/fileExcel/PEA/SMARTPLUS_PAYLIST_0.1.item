@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_68ArYHewEemiwvn9_zoDgA" name="SMARTPLUS_PAYLIST" dataPackage="_qEhFoXVGEemqQ-ez_4H6ZA" Server="Localhost 127.0.0.1" FilePath="D:/PEA_DATA/04_SmartPlus/ชำระเงินผ่าน App/61/จำนวนรายการ/6102Paylist.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="3" FirstLineCaption="true" SheetName="PaymentDynamicReport2_NoDecimal" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="PaymentDynamicReport2_NoDecimal:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_qEhFoXVGEemqQ-ez_4H6ZA" name="default" dataManager="_68ArYHewEemiwvn9_zoDgA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qEhssHVGEemqQ-ez_4H6ZA" id="_qFBhIHU0EemqQ-ez_4H6ZA" label="SMARTPLUS_PAYLIST">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfQHewEemiwvn9_zoDgA" name="branchid" label="branchid" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfQXewEemiwvn9_zoDgA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfQnewEemiwvn9_zoDgA" name="BluePay" label="BluePay" length="30" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfQ3ewEemiwvn9_zoDgA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfRHewEemiwvn9_zoDgA" name="Counter_Service" label="Counter_Service" length="30" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfRXewEemiwvn9_zoDgA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfRnewEemiwvn9_zoDgA" name="Easy_bill_by_2C2P" label="Easy_bill_by_2C2P" length="30" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfR3ewEemiwvn9_zoDgA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfSHewEemiwvn9_zoDgA" name="SCB" label="SCB" length="30" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfSXewEemiwvn9_zoDgA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfSnewEemiwvn9_zoDgA" name="BBL" label="BBL" length="30" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfS3ewEemiwvn9_zoDgA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfTHewEemiwvn9_zoDgA" name="KTB" label="KTB" length="30" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfTXewEemiwvn9_zoDgA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfTnewEemiwvn9_zoDgA" name="KRUNGSRI" label="KRUNGSRI" length="30" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfT3ewEemiwvn9_zoDgA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfUHewEemiwvn9_zoDgA" name="KBANK" label="KBANK" length="30" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfUXewEemiwvn9_zoDgA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_30GfUnewEemiwvn9_zoDgA" name="TBANK" label="TBANK" length="30" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_30GfU3ewEemiwvn9_zoDgA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

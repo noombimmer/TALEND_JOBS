@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_76HOAHeSEem1cLWAzWOlDA" name="queues" dataPackage="_76HOAXeSEem1cLWAzWOlDA" Server="Localhost 127.0.0.1" FilePath="D:/PEA_DATA/06_Queue/2017/H0111_2017.csv" Encoding="windows-874" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="2" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_76HOAXeSEem1cLWAzWOlDA" name="default" dataManager="_76HOAHeSEem1cLWAzWOlDA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_76HOAneSEem1cLWAzWOlDA" id="_g0BKcHeSEem1cLWAzWOlDA" label="queues">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1EHeSEem1cLWAzWOlDA" name="QID" label="QID" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1EXeSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1EneSEem1cLWAzWOlDA" name="QNumber" label="QNumber" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1E3eSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1FHeSEem1cLWAzWOlDA" name="QPress" label="QPress" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1FXeSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1FneSEem1cLWAzWOlDA" name="QBegin" label="QBegin" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1F3eSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1GHeSEem1cLWAzWOlDA" name="QEnd" label="QEnd" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1GXeSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1GneSEem1cLWAzWOlDA" name="CounterID" label="CounterID" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1G3eSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1HHeSEem1cLWAzWOlDA" name="UserID" label="UserID" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1HXeSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1HneSEem1cLWAzWOlDA" name="QStatus" label="QStatus" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1H3eSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1IHeSEem1cLWAzWOlDA" name="BranchID" label="BranchID" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1IXeSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1IneSEem1cLWAzWOlDA" name="serviceGroupID" label="serviceGroupID" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1I3eSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1JHeSEem1cLWAzWOlDA" name="customer_id" label="customer_id" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1JXeSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1JneSEem1cLWAzWOlDA" name="SatisfyID" label="SatisfyID" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1J3eSEem1cLWAzWOlDA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_76H1KHeSEem1cLWAzWOlDA" name="counterTypeID" label="counterTypeID" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_76H1KXeSEem1cLWAzWOlDA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

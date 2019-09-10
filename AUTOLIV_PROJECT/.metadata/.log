@@ -1,0 +1,674 @@
+!SESSION 2019-08-15 01:16:55.396 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2019-08-15 01:16:56.546
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [334]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2019-08-15 01:16:56.548
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [336]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.talend.platform.logging 2 0 2019-08-15 01:17:20.716
+!MESSAGE 2019-08-15 01:17:20,713 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.corespi.scanner.AbstractMetaDataDiscovery.getBeanClassesPerBda] Ignoring class [org.talend.sdk.component.server.service.AsciidoctorService] because it could not be loaded: java.lang.NoClassDefFoundError: Lorg/asciidoctor/Options; 
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-15 01:17:39.231
+!MESSAGE 2019-08-15 01:17:39,231 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\AutoLiv\AUTOLIV_PROJECT\LOCAL_PROJECT\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-15 01:17:39.237
+!MESSAGE 2019-08-15 01:17:39,237 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s C:\HDFS\Talend\TOS_BD-20181026_1147-V7.1.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-15 01:17:42.634
+!MESSAGE 2019-08-15 01:17:42,634 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on Local_Project
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-15 01:17:43.718
+!MESSAGE 2019-08-15 01:17:43,717 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.358
+!MESSAGE 2019-08-15 01:19:45,357 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.367
+!MESSAGE 2019-08-15 01:19:45,367 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.372
+!MESSAGE 2019-08-15 01:19:45,371 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.376
+!MESSAGE 2019-08-15 01:19:45,375 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.379
+!MESSAGE 2019-08-15 01:19:45,379 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.383
+!MESSAGE 2019-08-15 01:19:45,383 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.387
+!MESSAGE 2019-08-15 01:19:45,387 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.391
+!MESSAGE 2019-08-15 01:19:45,391 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.395
+!MESSAGE 2019-08-15 01:19:45,395 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.399
+!MESSAGE 2019-08-15 01:19:45,399 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.403
+!MESSAGE 2019-08-15 01:19:45,403 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.407
+!MESSAGE 2019-08-15 01:19:45,407 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.411
+!MESSAGE 2019-08-15 01:19:45,411 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.415
+!MESSAGE 2019-08-15 01:19:45,415 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.420
+!MESSAGE 2019-08-15 01:19:45,419 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.424
+!MESSAGE 2019-08-15 01:19:45,423 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.428
+!MESSAGE 2019-08-15 01:19:45,428 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.432
+!MESSAGE 2019-08-15 01:19:45,432 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.436
+!MESSAGE 2019-08-15 01:19:45,436 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.441
+!MESSAGE 2019-08-15 01:19:45,440 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.445
+!MESSAGE 2019-08-15 01:19:45,444 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.449
+!MESSAGE 2019-08-15 01:19:45,449 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.453
+!MESSAGE 2019-08-15 01:19:45,453 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.457
+!MESSAGE 2019-08-15 01:19:45,457 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.462
+!MESSAGE 2019-08-15 01:19:45,461 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.466
+!MESSAGE 2019-08-15 01:19:45,465 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.470
+!MESSAGE 2019-08-15 01:19:45,470 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.474
+!MESSAGE 2019-08-15 01:19:45,474 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:45.478
+!MESSAGE 2019-08-15 01:19:45,478 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.857
+!MESSAGE 2019-08-15 01:19:46,857 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.862
+!MESSAGE 2019-08-15 01:19:46,862 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.867
+!MESSAGE 2019-08-15 01:19:46,866 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.871
+!MESSAGE 2019-08-15 01:19:46,871 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.875
+!MESSAGE 2019-08-15 01:19:46,875 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.880
+!MESSAGE 2019-08-15 01:19:46,879 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.884
+!MESSAGE 2019-08-15 01:19:46,884 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.888
+!MESSAGE 2019-08-15 01:19:46,888 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.893
+!MESSAGE 2019-08-15 01:19:46,892 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.897
+!MESSAGE 2019-08-15 01:19:46,897 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.901
+!MESSAGE 2019-08-15 01:19:46,901 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.906
+!MESSAGE 2019-08-15 01:19:46,905 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.910
+!MESSAGE 2019-08-15 01:19:46,910 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.914
+!MESSAGE 2019-08-15 01:19:46,914 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.918
+!MESSAGE 2019-08-15 01:19:46,918 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.922
+!MESSAGE 2019-08-15 01:19:46,922 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.927
+!MESSAGE 2019-08-15 01:19:46,926 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.931
+!MESSAGE 2019-08-15 01:19:46,930 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.935
+!MESSAGE 2019-08-15 01:19:46,935 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.939
+!MESSAGE 2019-08-15 01:19:46,939 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.944
+!MESSAGE 2019-08-15 01:19:46,943 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.948
+!MESSAGE 2019-08-15 01:19:46,948 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.952
+!MESSAGE 2019-08-15 01:19:46,952 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.956
+!MESSAGE 2019-08-15 01:19:46,956 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.961
+!MESSAGE 2019-08-15 01:19:46,960 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.965
+!MESSAGE 2019-08-15 01:19:46,964 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.969
+!MESSAGE 2019-08-15 01:19:46,969 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.973
+!MESSAGE 2019-08-15 01:19:46,973 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:46.977
+!MESSAGE 2019-08-15 01:19:46,977 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.022
+!MESSAGE 2019-08-15 01:19:47,021 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.026
+!MESSAGE 2019-08-15 01:19:47,026 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.030
+!MESSAGE 2019-08-15 01:19:47,030 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.034
+!MESSAGE 2019-08-15 01:19:47,034 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.039
+!MESSAGE 2019-08-15 01:19:47,038 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.043
+!MESSAGE 2019-08-15 01:19:47,043 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.047
+!MESSAGE 2019-08-15 01:19:47,047 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.051
+!MESSAGE 2019-08-15 01:19:47,051 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.055
+!MESSAGE 2019-08-15 01:19:47,055 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.060
+!MESSAGE 2019-08-15 01:19:47,059 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.064
+!MESSAGE 2019-08-15 01:19:47,063 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.068
+!MESSAGE 2019-08-15 01:19:47,068 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.072
+!MESSAGE 2019-08-15 01:19:47,072 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.076
+!MESSAGE 2019-08-15 01:19:47,076 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.080
+!MESSAGE 2019-08-15 01:19:47,080 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.085
+!MESSAGE 2019-08-15 01:19:47,084 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.089
+!MESSAGE 2019-08-15 01:19:47,088 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.093
+!MESSAGE 2019-08-15 01:19:47,093 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.097
+!MESSAGE 2019-08-15 01:19:47,097 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.101
+!MESSAGE 2019-08-15 01:19:47,101 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.105
+!MESSAGE 2019-08-15 01:19:47,105 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.110
+!MESSAGE 2019-08-15 01:19:47,109 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.114
+!MESSAGE 2019-08-15 01:19:47,113 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.118
+!MESSAGE 2019-08-15 01:19:47,118 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.122
+!MESSAGE 2019-08-15 01:19:47,122 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.126
+!MESSAGE 2019-08-15 01:19:47,126 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.132
+!MESSAGE 2019-08-15 01:19:47,131 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.136
+!MESSAGE 2019-08-15 01:19:47,136 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.140
+!MESSAGE 2019-08-15 01:19:47,140 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.221
+!MESSAGE 2019-08-15 01:19:47,221 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.226
+!MESSAGE 2019-08-15 01:19:47,226 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.231
+!MESSAGE 2019-08-15 01:19:47,231 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.236
+!MESSAGE 2019-08-15 01:19:47,235 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.240
+!MESSAGE 2019-08-15 01:19:47,240 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.244
+!MESSAGE 2019-08-15 01:19:47,244 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.249
+!MESSAGE 2019-08-15 01:19:47,249 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.253
+!MESSAGE 2019-08-15 01:19:47,253 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.258
+!MESSAGE 2019-08-15 01:19:47,257 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.262
+!MESSAGE 2019-08-15 01:19:47,262 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.266
+!MESSAGE 2019-08-15 01:19:47,266 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.270
+!MESSAGE 2019-08-15 01:19:47,270 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.274
+!MESSAGE 2019-08-15 01:19:47,274 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.278
+!MESSAGE 2019-08-15 01:19:47,278 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.282
+!MESSAGE 2019-08-15 01:19:47,282 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.287
+!MESSAGE 2019-08-15 01:19:47,286 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.291
+!MESSAGE 2019-08-15 01:19:47,291 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.295
+!MESSAGE 2019-08-15 01:19:47,295 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.299
+!MESSAGE 2019-08-15 01:19:47,299 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.303
+!MESSAGE 2019-08-15 01:19:47,303 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.307
+!MESSAGE 2019-08-15 01:19:47,307 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.312
+!MESSAGE 2019-08-15 01:19:47,312 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.317
+!MESSAGE 2019-08-15 01:19:47,316 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.321
+!MESSAGE 2019-08-15 01:19:47,321 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.325
+!MESSAGE 2019-08-15 01:19:47,325 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.329
+!MESSAGE 2019-08-15 01:19:47,329 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.333
+!MESSAGE 2019-08-15 01:19:47,333 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.338
+!MESSAGE 2019-08-15 01:19:47,337 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-08-15 01:19:47.342
+!MESSAGE 2019-08-15 01:19:47,341 ERROR org.talend.repository.items.importexport.handlers.imports.AbstractImportExecutableHandler  - Folder null null missing item file. - null
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-08-15 01:19:58.127
+!MESSAGE 2019-08-15 01:19:58,127 WARN  org.talend.core.model.metadata.MappingFileLoader  - "DOUBLE PRECIS"is not a declared Db type for the dbms id "sybase_id" at node: /mapping/dbms/language/dbToTalendTypes/dbType
+
+!SESSION 2019-08-15 21:38:25.919 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2019-08-15 21:38:27.070
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [334]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2019-08-15 21:38:27.073
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [336]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-08-15 21:38:28.489
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-15 21:38:32.002
+!MESSAGE 2019-08-15 21:38:32,000 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+!SESSION 2019-08-16 18:46:58.853 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2019-08-16 18:46:59.882
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [334]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2019-08-16 18:46:59.884
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [336]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-08-16 18:47:01.257
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-16 18:47:04.101
+!MESSAGE 2019-08-16 18:47:04,099 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-08-16 18:47:15.565
+!MESSAGE 2019-08-16 18:47:15,564 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.corespi.scanner.AbstractMetaDataDiscovery.getBeanClassesPerBda] Ignoring class [org.talend.sdk.component.server.service.AsciidoctorService] because it could not be loaded: java.lang.NoClassDefFoundError: Lorg/asciidoctor/Options; 
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-16 18:47:21.959
+!MESSAGE 2019-08-16 18:47:21,958 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\AutoLiv\AUTOLIV_PROJECT\LOCAL_PROJECT\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-16 18:47:21.965
+!MESSAGE 2019-08-16 18:47:21,965 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s C:\HDFS\Talend\TOS_BD-20181026_1147-V7.1.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-16 18:47:29.275
+!MESSAGE 2019-08-16 18:47:29,275 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on Local_Project
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-16 18:47:30.519
+!MESSAGE 2019-08-16 18:47:30,519 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+!SESSION 2019-08-16 18:55:37.338 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2019-08-16 18:55:38.358
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [334]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2019-08-16 18:55:38.361
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [336]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-08-16 18:55:39.650
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2019-08-16 18:55:42.320
+!MESSAGE 2019-08-16 18:55:42,318 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+

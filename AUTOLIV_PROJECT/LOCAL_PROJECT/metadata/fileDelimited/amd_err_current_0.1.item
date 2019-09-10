@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_huCSoRTtEemF4bdpt1ZzQw" name="amd_err_current" dataPackage="_huCSohTtEemF4bdpt1ZzQw" contextName="Default" Server="Localhost 127.0.0.1" FilePath="C:/Users/Administrator/bimmerso_siop/amd_error_current.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="0" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_huCSohTtEemF4bdpt1ZzQw" name="default" dataManager="_huCSoRTtEemF4bdpt1ZzQw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_huCSoxTtEemF4bdpt1ZzQw" id="_VV-w0BTtEemF4bdpt1ZzQw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJIBTxEemF4bdpt1ZzQw" name="xxamd_domain" label="xxamd_domain" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJIRTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJIhTxEemF4bdpt1ZzQw" name="xxamd_site" label="xxamd_site" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJIxTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJJBTxEemF4bdpt1ZzQw" name="xxamd_amis" label="xxamd_amis" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJJRTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJJhTxEemF4bdpt1ZzQw" name="xxamd_part" label="xxamd_part" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJJxTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJKBTxEemF4bdpt1ZzQw" name="xxamd_cust" label="xxamd_cust" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJKRTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJKhTxEemF4bdpt1ZzQw" name="xxamd_brand" label="xxamd_brand" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJKxTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJLBTxEemF4bdpt1ZzQw" name="xxamd_cust_country" label="xxamd_cust_country" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJLRTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJLhTxEemF4bdpt1ZzQw" name="xxamd_mol_name" label="xxamd_mol_name" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJLxTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJMBTxEemF4bdpt1ZzQw" name="xxamd_err" label="xxamd_err" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJMRTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJMhTxEemF4bdpt1ZzQw" name="Key" label="Key" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJMxTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJNBTxEemF4bdpt1ZzQw" name="Error_Reason" label="Error_Reason" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJNRTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3zqJNhTxEemF4bdpt1ZzQw" name="Error_Group" label="Error_Group" length="255" sourceType="NVARCHAR" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_3zqJNxTxEemF4bdpt1ZzQw" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
